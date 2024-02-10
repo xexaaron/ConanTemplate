@@ -1,4 +1,5 @@
 
+
 !/build/
 /build/**
 !/build/scripts/
@@ -11,6 +12,3 @@
 !/conanfile.py
 !/CMakeLists.txt
 !/.gitignore
-
-
-CMakeUserPresets.json
