@@ -7,4 +7,4 @@ find_package(fmt REQUIRED)
 
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 target_link_libraries(${PROJECT_NAME} PRIVATE fmt::fmt)
-target_include_directories(${PROJECT_NAME} PRIVATE ${fmt_INCLUDE_DIRS})
+target_include_directories(${PROJECT_NAME} PRIVATE ${fmt_INCLUDE_DIRS_RELEASE})
